@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = ">=1.3"
+numpy = ">=1.21"
+scikit-learn = ">=1.0"
+joblib = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+streamlit = "*"
+fastapi = "*"
+requests = "*"
+pydantic = "*"
+pydeck = "*"
+tensorflow-cpu = ">=2.10"
+uvicorn = {extras = ["standard"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

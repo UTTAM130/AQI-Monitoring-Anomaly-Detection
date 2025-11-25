@@ -1,0 +1,19 @@
+pandas>=1.3
+numpy>=1.21
+scikit-learn>=1.0
+joblib
+matplotlib
+seaborn
+plotly
+streamlit
+fastapi
+uvicorn[standard]
+requests
+pydantic
+pydeck
+# optional for geospatial mapping (install only if you need)
+# geopandas
+# folium
+
+# optional for LSTM (install only if you want deep learning)
+tensorflow-cpu>=2.10  # optional - install separately if you have issues
